@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-import { Noto_Sans } from "next/font/google";
+import { Noto_Naskh_Arabic } from "next/font/google";
 import "../styles/globals.css";
 
 const readexpro = localFont({
@@ -7,17 +7,16 @@ const readexpro = localFont({
   variable: "--font-readexpro",
 });
 
-const noto_sans = Noto_Sans({
+const noto_naskh_sans = Noto_Naskh_Arabic({
   subsets: ["latin"],
   display: "swap",
-  weight: ["300", "400", "500", "600", "700", "800"],
-  variable: "--font-noto-sans",
+  variable: "--font-noto-naskh-sans",
 });
 
 export default function MyApp({ Component, pageProps }) {
   return (
     <main
-      className={`${readexpro.variable} ${noto_sans.variable} font-sans rtl:!font-multi-lingual`}
+      className={`${readexpro.variable} ${noto_naskh_sans.variable} font-sans rtl:!font-multi-lingual`}
     >
       <Component {...pageProps} />
     </main>

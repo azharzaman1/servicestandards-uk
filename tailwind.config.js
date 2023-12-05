@@ -14,7 +14,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["var(--font-readexpro)"],
-        "multi-lingual": ["var(--font-noto-sans)"],
+        "multi-lingual": ["var(--font-noto-naskh-sans)"],
       },
     },
   },
