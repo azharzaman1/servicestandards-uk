@@ -13,7 +13,7 @@ import {
   titleSuffixTranslations,
 } from "./lib/static/translations";
 
-const githubRepo = "https://github.com/drivelead/servicestandards";
+const githubRepo = "https://github.com/azharzaman1/servicestandards-uk";
 
 const dynamicHead = () => {
   const { asPath, defaultLocale, locale: activeLocale } = useRouter();
@@ -62,9 +62,9 @@ const config: DocsThemeConfig = {
     },
   },
   project: {
-    link: "https://github.com/drivelead/servicestandards",
+    link: "https://github.com/azharzaman1/servicestandards-uk",
   },
-  docsRepositoryBase: "https://github.com/drivelead/servicestandards",
+  docsRepositoryBase: "https://github.com/azharzaman1/servicestandards-uk",
   head: dynamicHead,
   // chat: {
   //  link: "https://discord.com",
